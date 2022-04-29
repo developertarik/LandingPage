@@ -40,6 +40,19 @@ button.sign-up {
     gap:25px;
    
 }
+.one-world{
+    width:500px;
+}
+.sign-up{
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    background-color: #3882F6 ;
+    color: white;
+    font-family: "Roboto";
+    border-style: solid;
+    box-shadow: none;
+}
 a{
     color: #E5E7EB; 
     text-decoration: none;
