@@ -1,15 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     font-family: "Roboto";
+    display:inline;
+    margin:0;
 }
 
 /*header*/
 .header-container{
     background-color: #1F2937;
-    padding: 5px 100px;
+    padding: 5px 100px 100px;
     color: #F9FAF8;
+}
+.header-top-container{
+    display:flex;
+    align-items:center;
+}
+.header-bottom-container{
+    display:flex;
+    flex-direction: row;
+    padding-top: 100px;
 }
 .header-text{
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
+}
+button.sign-up {
+    display: inline;
+    max-width: 150px;
+}
+.header-desc{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+.link-container{
+    display:flex;
+    justify-content:flex-end;
+    gap:25px;
+   
+}
+a{
+    color: #E5E7EB; 
+    text-decoration: none;
+}
+.header-bottom2-container {
+    margin-left: auto;
 }
