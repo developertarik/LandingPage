@@ -61,3 +61,25 @@ a{
 .header-bottom2-container {
     margin-left: auto;
 }
+
+
+/*features images*/
+.features{
+    padding: 10px 100px 100px;
+}
+.features-images{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.features-container{
+    display:flex;
+}
+.features-purpose{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.box-1,.box-2,.box-3{
+    display:flex;
+    flex-wrap: wrap;
+}
