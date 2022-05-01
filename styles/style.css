@@ -131,3 +131,10 @@ a{
    font-size: large;
    font-family: "Roboto",sans-serif;
 }
+/*footer*/
+.footer{
+    background-color: #1F2937;
+    color:white;
+    text-align: center;
+    padding: 24px 48px;
+}
