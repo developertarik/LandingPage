@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 body{
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     display:inline;
     margin:0;
 }
@@ -51,7 +51,7 @@ button.sign-up {
     height: 35px;
     background-color: #3882F6 ;
     color: white;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     border-style: solid;
     box-shadow: none;
     border:none;
@@ -94,7 +94,7 @@ a{
     padding: 75px 150px;
 }   
 .testimonials-p{
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -102,4 +102,32 @@ a{
 .testimonials-header{
     display: flex;
     justify-content:flex-end;
+
+}
+/*cta*/
+.cta{
+   
+    padding: 48px;
+    margin: 48px;
+}
+.cta-container{
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 25px 150px;
+    display: flex;
+}
+.cta-button-container{
+    display:flex;
+    align-items:center;
+    margin-left: auto;
+}
+.cta-button{
+    background-color: #3882F6 ;
+   color:white;
+   border: 2px white solid;
+   border-radius: 5px;
+   padding: 5px 25px;
+   font-size: large;
+   font-family: "Roboto",sans-serif;
 }
