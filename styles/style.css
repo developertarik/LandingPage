@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 body{
     font-family: "Roboto";
     display:inline;
@@ -86,4 +87,19 @@ a{
 .box-1,.box-2,.box-3,.box-4{
     display:flex;
     flex-wrap: wrap;
+}
+/*Testimonials*/
+.testimonials{
+    background-color:#E5E7EB ;
+    padding: 75px 150px;
+}   
+.testimonials-p{
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.testimonials-header{
+    display: flex;
+    justify-content:flex-end;
 }
