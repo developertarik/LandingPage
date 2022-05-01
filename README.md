@@ -6,3 +6,6 @@ Photo by Guillaume Falco from Pexels
 Photo by Markus Spiske from Pexels
 Photo by Pexels from Pexels
 
+site url :https://developertarik.github.io/LandingPage/
+
+
